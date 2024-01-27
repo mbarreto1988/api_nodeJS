@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.use(express.json());
+app.use(express.json()); //Formatea todo a json
 
 const students = [          //ejemplo de db
     {id:1, name:'Jorge', age:20, enroll:true},
